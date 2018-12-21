@@ -1,0 +1,52 @@
+// .demo-spin-icon-load {
+//   animation: ani-demo-spin 1s linear infinite;
+// }
+
+// @keyframes ani-demo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   50% {
+//     transform: rotate(180deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+
+// .ivu-spin-fix {
+//   background: rgba(0, 0, 0, .8);
+// }
+
+// .demo-spin-col {
+//   height: 100px;
+//   position: relative;
+//   border: 1px solid #eee;
+// }
+
+//设计图
+$mobile_design: 960;
+@function rem($n) {
+  @return $n/($mobile_design/320*20)
+}
+
+// 背景渐变
+// $bg-linear: linear-gradient(130deg, #2b32b2, #1488cc);
+
+// //PC端
+// //--nav
+// $nav-height: 105px;
+// $main: 1080px;
+// //--index
+// $input-height: 38px;
+// $banner-height: 650px;
+// $about-main: 460px;
+// $about-hiring: 440px;
+
+// //移动端
+// $mobile_main: rem(16rem);
+// $mobile_nav-height: rem(215rem);
+// $mobile_banner-height: rem(1800rem);
+// $mobile_input-height: rem(118rem);
+// $mobile_about-main: rem(1280rem);
+// $mobile_about-hiring: rem(700rem);
